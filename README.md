@@ -1,14 +1,14 @@
 # Signature Verification with Siamese Network
-Kaggle: https://www.kaggle.com/code/samhithary/signature-verification-siamese  
-HuggingFace spaces: https://huggingface.co/spaces/sam-ry/signature-verification/blob/main/app.py  
+Kaggle: https://www.kaggle.com/code/samhithary/signature-verification  
+HuggingFace spaces: https://huggingface.co/spaces/sam-ry/signature-verification  
 
-This project uses deep learning to check if two signature images are from the same person or if one is a forgery. **Siamese Neural Network** is trained on a dataset of real and fake signatures.
+This project uses deep learning to check if two signature images are from the same person or if one is a forgery. Siamese Neural Network is trained on a dataset of real and forged signatures.
 
 ## What It Does
 
-* Takes **two signature images** as input.
+* Takes two signature images as input.
 * Compares them using a trained model.
-* Predicts if the signatures are **genuine** or **forged**.
+* Predicts if the signatures are genuine or forged.
 
 ## Dataset
 * Positive pairs: genuine signatures from the same user.
@@ -20,7 +20,6 @@ This project uses deep learning to check if two signature images are from the sa
 
 * A small CNN (Convolutional Neural Network).
 * Converts each image into a feature vector.
-* Normalizes the output using L2 normalization.
 
 ### 2. **Siamese Network**
 
